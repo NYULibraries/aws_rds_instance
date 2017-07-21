@@ -1,4 +1,4 @@
-resource "aws_db_instance" "rds" {
+resource "aws_db_instance" "instance" {
   identifier                 = "${var.identifier}"
   allocated_storage          = "${var.allocated_storage}"
   storage_type               = "${var.storage_type}"
